@@ -1,9 +1,10 @@
 pragma solidity 0.5.12;
 
 contract HelloWorld{
-    //STATE Variables
+    //State Variables
     string public message = "Hello World Again";
     
+    //Functions
     function getMessage() public view returns(string memory){
         return message;
     }
